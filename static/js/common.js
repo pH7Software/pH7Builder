@@ -83,4 +83,4 @@ function pH7Include(mFile) {
 })();
 
 console.log('This Web App has been made with http://ph7cms.com | The Social App Builder'
-    + "\r\n" + 'GitHub: http://github.com/pH7Software/pH7-Social-Dating-CMS');
+    + "\r\n" + 'GitHub: http://github.com/pH7Software/pH7Builder');
