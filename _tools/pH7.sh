@@ -174,13 +174,13 @@ function file-strict-permissions() {
 # Push the project into GitHub and Bitbucket repos
 function save-code() {
     # Bitbucket repo
-    _save-project-to-repo git@bitbucket.org:pH_7/ph7cms-social-dating-app-site-builder.git
+    _save-project-to-repo git@bitbucket.org:pH_7/ph7builder.git
 
     # GitLab repo
-    _save-project-to-repo git@gitlab.com:pH-7/pH7CMS.git
+    _save-project-to-repo git@gitlab.com:pH-7/pH7Builder.git
 
     # GitHub repo
-    _save-project-to-repo git@github.com:pH7Software/pH7-Social-Dating-CMS.git
+    _save-project-to-repo git remote add origin git@github.com:pH7Software/pH7Builder.git
 
     echo "Yaaay! Changes successfully saved into remote repos!"
 
