@@ -118,7 +118,7 @@ This Free and Open Source **Social Dating Site Builder** wants to be low resourc
 * Progressive Web App (PWA) support (requires HTTPS)
 * Admin Panel - Block Access with IP Restriction
 * Beautiful Code: Very thoroughly commented about what's happening throughout the PHP code, beautiful indentation and very readable, even for non-programmers
-* Anyone can easily contribute to pH7CMS project thanks the [GitHub repository](https://github.com/pH7Software/pH7-Social-Dating-CMS)
+* Anyone can easily contribute to pH7CMS project thanks the [GitHub repository](https://github.com/pH7Software/pH7Builder)
 
 
 **It's not a hazard that pH7CMS is considered to be the first choice for creating an enterprise level dating web app or social networking website**
@@ -176,7 +176,7 @@ location / {
 }
 ```
 
-*Please note that the above code is the strict minimum and obviously you can add more rules by comparing with the [main Apache .htaccess file](https://github.com/pH7Software/pH7-Social-Dating-CMS/blob/master/.htaccess).*
+*Please note that the above code is the strict minimum and obviously you can add more rules by comparing with the [main Apache .htaccess file](https://github.com/pH7Software/pH7Builder/blob/master/.htaccess).*
 
 Finally, in your nginx server configuration, you will have to include `ph7cms.conf` file to complete the configuration like below:
 
@@ -245,7 +245,7 @@ You appreciate the project, the several years I spent on it, and don't want to l
 
 ![I Love Open Source](static/img/love-open-source-logo.png)
 
-Anyone can contribute on **[pH7CMS GitHub](https://github.com/pH7Software/pH7-Social-Dating-CMS)** repository!
+Anyone can contribute on **[pH7CMS GitHub](https://github.com/pH7Software/pH7Builder)** repository!
 
 Finding bugs, improving the CMS/doc or adding translations. Any contribution is welcome and highly appreciated!
 

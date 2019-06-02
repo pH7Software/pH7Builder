@@ -4,7 +4,7 @@
     {{ $is_braintree = $config->values['module.setting']['braintree.enabled'] }}
     {{ $is_2co = $config->values['module.setting']['2co.enabled'] }}
     {*
-         Still in development. Fork the project at https://github.com/pH7Software/pH7-Social-Dating-CMS/ and contribute to it,
+         Still in development. Fork the project at https://github.com/pH7Software/pH7Builder/ and contribute to it,
          then, open a pull request :-)
 
          {{ $is_ccbill = $config->values['module.setting']['ccbill.enabled'] }}

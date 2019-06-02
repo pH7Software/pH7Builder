@@ -27,7 +27,7 @@ final class Autoloader
 {
     const FRAMEWORK_NAMESPACE = 'PH7\Framework';
     const COMPOSER_AUTOLOAD_FULL_PATH = PH7_PATH_PROTECTED . 'vendor/autoload.php';
-    const INFO_INSTALL_COMPOSER_LINK = 'https://github.com/pH7Software/pH7-Social-Dating-CMS#installation';
+    const INFO_INSTALL_COMPOSER_LINK = 'https://github.com/pH7Software/pH7Builder#installation';
     const DOWNLOAD_SOFTWARE_LINK = 'https://sourceforge.net/projects/ph7socialdating/files/latest/download';
 
     /**

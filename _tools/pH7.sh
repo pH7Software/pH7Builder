@@ -185,7 +185,7 @@ function save-code() {
     echo "Yaaay! Changes successfully saved into remote repos!"
 
     # Save the latest GitHub changes on Internet Archive for the record
-    _save-project-to-ia https://github.com/pH7Software/pH7-Social-Dating-CMS
+    _save-project-to-ia https://github.com/pH7Software/pH7Builder
     echo "GitHub repo also saved on Internet Archive.org"
 }
 

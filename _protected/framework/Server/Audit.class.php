@@ -13,7 +13,7 @@ defined('PH7') or exit('Restricted access');
 
 /**
  * This class is still under development.
- * You are more than welcome to contribute on Github: https://github.com/pH7Software/pH7-Social-Dating-CMS
+ * You are more than welcome to contribute on Github: https://github.com/pH7Software/pH7Builder
  *
  * Thank you,
  * Pierre-Henry Soria

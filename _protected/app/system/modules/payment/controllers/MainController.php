@@ -135,7 +135,7 @@ class MainController extends Controller
 
             case static::CCBILL_GATEWAY_NAME:
                 // Still in developing...
-                // You are more than welcome to contribute on GitHub: https://github.com/pH7Software/pH7-Social-Dating-CMS
+                // You are more than welcome to contribute on GitHub: https://github.com/pH7Software/pH7Builder
                 break;
 
             default:

@@ -59,8 +59,8 @@
         }
     },
     "support": {
-        "source": "https://github.com/pH7Software/pH7-Social-Dating-CMS",
-        "issues": "https://github.com/pH7Software/pH7-Social-Dating-CMS/issues",
+        "source": "https://github.com/pH7Software/pH7Builder",
+        "issues": "https://github.com/pH7Software/pH7Builder/issues",
         "docs": "https://ph7cms.com/doc"
     }
 }

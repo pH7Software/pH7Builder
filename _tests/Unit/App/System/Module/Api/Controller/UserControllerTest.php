@@ -17,6 +17,6 @@ class UserControllerTest extends MainControllerTest
 
     /**
      * Has still to be implemented and get the DB fixture setup.
-     * Feel free to contribute -> https://github.com/pH7Software/pH7-Social-Dating-CMS
+     * Feel free to contribute -> https://github.com/pH7Software/pH7Builder
      */
 }

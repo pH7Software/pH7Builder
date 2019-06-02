@@ -29,7 +29,7 @@ abstract class Kernel
     const SOFTWARE_DESCRIPTION = 'pH7CMS Dating Web App Builder. The ONLY Free, Open Source, Pro Dating Startup Builder for Growing Your Online Business';
     const SOFTWARE_WEBSITE = 'https://ph7cms.com';
     const SOFTWARE_DOC_URL = 'https://ph7cms.com/doc';
-    const SOFTWARE_GIT_REPO_URL = 'https://github.com/pH7Software/pH7-Social-Dating-CMS';
+    const SOFTWARE_GIT_REPO_URL = 'https://github.com/pH7Software/pH7Builder';
     const SOFTWARE_ISSUE_URL = self::SOFTWARE_GIT_REPO_URL . '/issues';
     const SOFTWARE_RELEASE_URL = self::SOFTWARE_GIT_REPO_URL . '/releases';
     const SOFTWARE_REVIEW_URL = 'https://sourceforge.net/projects/ph7socialdating/reviews/';

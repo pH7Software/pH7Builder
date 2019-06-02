@@ -19,7 +19,7 @@
                         {lang 'Name: %0%', '<a href="%software_website%">%software_name%</a>'}
                     </li>
                     <li class="list-group-item">
-                        Github: <a href="https://github.com/pH7Software/pH7-Social-Dating-CMS">https://github.com/pH7Software/pH7-Social-Dating-CMS</a>
+                        Github: <a href="https://github.com/pH7Software/pH7Builder">https://github.com/pH7Software/pH7Builder</a>
                     </li>
                     <li class="list-group-item">
                         {lang 'Author: %0%', '<a href="http://ph7.me">Pierre-Henry Soria</a>'}

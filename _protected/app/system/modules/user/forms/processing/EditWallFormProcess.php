@@ -15,7 +15,7 @@ use PH7\Framework\Url\Header;
 
 /*
  * This class is still under development.
- * If you wish, you are more than welcome to contribute on Github: https://github.com/pH7Software/pH7-Social-Dating-CMS
+ * If you wish, you are more than welcome to contribute on Github: https://github.com/pH7Software/pH7Builder
  */
 
 class EditWallFormProcess extends Form

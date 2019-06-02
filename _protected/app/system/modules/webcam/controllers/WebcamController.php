@@ -46,7 +46,7 @@ class WebcamController extends Controller
 
         /**
          * Video method is still under development, if you are a FLASH/PHP or HTML5/JS(WebRTC API)/PHP developer and you want to help us and join our volunteer team of developers to continue development of video capture, you're welcome!
-         * Please use our open source Github repo: https://github.com/pH7Software/pH7-Social-Dating-CMS
+         * Please use our open source Github repo: https://github.com/pH7Software/pH7Builder
          *
          * Thank you,
          * pH7 developers team (Pierre-Henry Soria).
