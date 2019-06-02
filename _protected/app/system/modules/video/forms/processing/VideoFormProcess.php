@@ -221,6 +221,8 @@ class VideoFormProcess extends Form
      * @param IApi $oInfo
      *
      * @return string
+     *
+     * @throws Framework\Mvc\Request\WrongRequestMethodException
      */
     private function getApiVideoDescription(IApi $oInfo)
     {
@@ -237,6 +239,8 @@ class VideoFormProcess extends Form
      * @param V\Video $oVideo
      *
      * @return string
+     *
+     * @throws Framework\Mvc\Request\WrongRequestMethodException
      */
     private function getVideoTitle(V\Video $oVideo)
     {
