@@ -292,7 +292,7 @@ Finally, **please consider using green Web hosting** (which use Green Power supp
 
 ## 🖋 Contact
 
-You can send me an email for any suggestions or feedback at: *hello {AT} ph7cms {D0T} com*
+You can reach me at *pierre {AT} soria {D0T} email*
 
 
 ## ⚖ License
