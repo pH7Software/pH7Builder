@@ -24,7 +24,7 @@ class Permission extends PermissionCore
 
         if (!Tool::checkAccess($this->config, $this->httpRequest)) {
             Http::setHeadersByCode(StatusCode::FORBIDDEN);
-            t("Your API key and/or the URL of your external application don't match with the one in your pH7CMS's configuration system!");
+            t("Your API key and/or the URL of your external application don't match with the one in your pH7Builder's configuration system!");
             exit;
         }
     }
