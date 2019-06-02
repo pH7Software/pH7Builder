@@ -1,16 +1,16 @@
-# pH7Builder
+# 🚀 pH7Builder 😍
 
-## ⚡️The 2019 KILLER Dating WebApp Builder!
+## ⚡ 2019 KILLER Dating WebApp Builder Software!
 
 [![PayPal](https://img.shields.io/badge/Donate-PayPal-lightgrey.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X457W3L7DAPC6 "Help keep me off the streets! ;)") [![Build Status](https://scrutinizer-ci.com/g/pH7Software/pH7-Social-Dating-CMS/badges/build.png?b=master)](https://scrutinizer-ci.com/g/pH7Software/pH7-Social-Dating-CMS/build-status/master) [![GPL v3 Licence](https://img.shields.io/aur/license/yaourt.svg)](https://opensource.org/licenses/gpl-3.0.html) [![SourceForge](https://img.shields.io/badge/Download-SourceForge-orange.svg)](https://sourceforge.net/projects/ph7socialdating/files/latest/download) [![Patreon](https://img.shields.io/badge/Subscribe-Patreon-red.svg)](https://www.patreon.com/bePatron?u=3534366 "Become a Patron Today!")
 
-**pH7, Social Dating CMS Solution™** is a **Professional**, **Free** & **Open Source** Social Dating CMS, fully responsive design, low-resource-intensive, powerful and very secure.
-
-pH7Builder (now known as pH7Builder) offers 42 modules and based on its homemade framework (pH7Framework). It is also the first Professional, Free and Open Source Social Dating Site Builder Software and the first choice for creating enterprise level Dating Apps/Service or social networking sites.
+**pH7Builder, Dating Solution™** gives a **Professional**, **Free** and **Open Source** Enterprise-Class Dating WebApp CMS, fully responsive design, low-resource-intensive, powerful and very secure.
 
 ![Professional PHP Social Dating Builder Software](https://cloud.githubusercontent.com/assets/1325411/19419476/5475b32c-93d0-11e6-9756-8e7db8df129f.png)
 
-*Imagine in 3 months' time, you have a well-known successful online community with thousands of happy users and without spending a dime for it! Instead, you spent money on advertising, user acquisition and other marketing strategies... Imagine the time you have saved. The amazing business and freedom you have now created.*
+🤔 *Imagine in 3 months' time..., you have a well-known successful online community with thousands of satisfied users, and without spending a dime for it.*
+*Instead, you spent money on advertising, user acquisition and other marketing strategies.*
+*Imagine the time you have saved. The great business and freedom you have now built.*
 
 With **[pH7Builder](https://sourceforge.net/projects/ph7socialdating/files/latest/download)**, *THIS IS TOTALLY POSSIBLE!* (however, you have to be motivated! Nothing comes as magic).
 
@@ -32,23 +32,43 @@ This Free and Open Source **Social Dating Site Builder** wants to be low resourc
 ![Build a Social Dating Web App with pH7Builder](https://cloud.githubusercontent.com/assets/1325411/19419481/657386a4-93d0-11e6-8eee-95deba2d30a0.png)
 
 
-## ⚙ Requirements
+## 👨‍🍳 The Cook
+
+[![Pierre-Henry Soria](https://avatars0.githubusercontent.com/u/1325411?s=200)](https://pierrehenry.be "My personal website :-)")
+
+Coded & Designed with lots of ❤ by [Pierre-Henry Soria](https://ph7.me). A SUPER Passionate Belgian Software Engineer 🍫🍺
+
+You can reach me at *pierre {AT} soria {D0T} email*
+
+
+## 🤝 Hire Me At Your Company?
+
+Do you need a software engineer like me (and willing to relocate) at your company..? **[Let's chat together](https://www.linkedin.com/in/ph7enry/)**! 😊
+
+
+## 💲 Offer Me A Cup of Tea? (...or tea bags...) 🍵
+
+You appreciate the project, the several years I spent on it, and don't want to let it die...?
+
+[![Paypal](templates/system/modules/ph7cms-helper/themes/base/img/paypal-donate.en.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X457W3L7DAPC6)
+[![Patreon](templates/system/modules/ph7cms-helper/themes/base/img/support-patreon.en.png)](https://www.patreon.com/bePatron?u=3534366 "Become a Patron")
+
+
+## ⚙ Technical Requirements
+
+* **Server** Apache with mod_php or with PHP in CGI, FastCGI mode (nginx, LiteSpeed and IIS should also work. You might have to change some pieces of code and change the URL rewriting to make it work).
 
 * **Application Server** PHP 5.6 or higher (Recommended Version: **PHP 7.0.4** or higher).
 
 * **Database** MySQL/MariaDB 5.5.3 or higher.
 
-* **Operating System** Linux/Unix (Red Hat, CentOS, Debian, FreeBSD, Mandrake, Mac OS, etc.), Windows.
-
-* **Web Server** Apache with mod_php or with PHP in CGI, FastCGI mode (nginx, LiteSpeed and IIS should also work. You might have to change some pieces of code and change the URL rewriting to make it work).
-
-* **URL rewriting extension module** [Apache](https://ph7cms.com/doc/en/how-to-install-rewrite-module), nginx, LiteSpeed, IIS (for Web.config, you have a [good tutorial here](https://web.archive.org/web/20190116102700/http://www.phpgenious.com/2010/04/url-rewriting-with-php-and-iis-7/)).
+* **URL rewriting extension** [Apache](https://ph7cms.com/doc/en/how-to-install-rewrite-module), nginx, LiteSpeed, IIS (for Web.config, you have a [good tutorial here](https://web.archive.org/web/20190116102700/http://www.phpgenious.com/2010/04/url-rewriting-with-php-and-iis-7/)).
 
 * **Specific Requirement** Server has to be connected to Internet.
 
 * **Minimum Web Space** 2.0 GB
 
-* **pH7Builder's Video Module Requirement (only if enabled)** [FFmpeg](https://ffmpeg.org)
+* **Video Module Requirement (only if enabled)** [FFmpeg](https://ffmpeg.org)
 
 
 ## 🛠 Installation
@@ -67,7 +87,7 @@ This Free and Open Source **Social Dating Site Builder** wants to be low resourc
     * If your Web host offers Softaculous, you might be able to install [pH7Builder in one-click with Softaculous](https://www.softaculous.com/apps/socialnetworking/pH7Builder).
 
 
-## 🏗 Nginx Configuration
+## 🏗 Nginx Specification (configuration)
 
 In order to get pH7Builder working on nginx server, you need to add some custom nginx configuration.
 
@@ -115,31 +135,6 @@ For more information, please refer to the nginx documentation.
 You can find and add other languages on the [I18N repo](https://github.com/pH7Software/pH7-Internationalization).
 
 
-## 👨‍🍳 The Cook
-
-[![Pierre-Henry Soria](https://avatars0.githubusercontent.com/u/1325411?s=200)](https://pierrehenry.be "My personal website :-)")
-
-Coded & Designed with lots of ❤ by [Pierre-Henry Soria](https://ph7.me). A SUPER Passionate Belgian Software Engineer 🍫🍺
-
-
-## 🤝 Hire Me At Your Company?
-
-Do you need a software engineer like me (and willing to relocate) at your company..? **[Let's chat together](https://www.linkedin.com/in/ph7enry/)**! 😊
-
-
-## 💲 Offer Me A Cup of Tea? (...or tea bags...) 🍵
-
-You appreciate the project, the several years I spent on it, and don't want to let it die...?
-
-[![Paypal](templates/system/modules/ph7cms-helper/themes/base/img/paypal-donate.en.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X457W3L7DAPC6)
-[![Patreon](templates/system/modules/ph7cms-helper/themes/base/img/support-patreon.en.png)](https://www.patreon.com/bePatron?u=3534366 "Become a Patron")
-
-
-## ⚡ Official Website
-
-[pH7CMS.com](https://ph7cms.com)
-
-
 ## 📚 Documentation
 
 [pH7Builder Documentation](https://ph7cms.com/doc/)
@@ -175,13 +170,8 @@ Finally, **please consider using green Web hosting** (which use Green Power supp
 -> Other [10 Easy Ways to Green Your Social Community](https://mashable.com/2010/01/01/green-your-web-site/) 😉 <-
 
 
-## 🖋 Contact
-
-You can reach me at *pierre {AT} soria {D0T} email*
-
-
 ## ⚖ License
 
 **pH7Builder** is generously distributed under **Open Source, Free** License.
 
-License: [General Public License 3](https://www.gnu.org/licenses/gpl.html) or later; See the *PH7.LICENSE.txt* and *PH7.COPYRIGHT.txt* files for more details.
+[General Public License 3](https://www.gnu.org/licenses/gpl.html) or later; See the *PH7.LICENSE.txt* and *PH7.COPYRIGHT.txt* files for further details.
