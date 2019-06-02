@@ -180,7 +180,7 @@ function save-code() {
     _save-project-to-repo git@gitlab.com:pH-7/pH7Builder.git
 
     # GitHub repo
-    _save-project-to-repo git remote add origin git@github.com:pH7Software/pH7Builder.git
+    _save-project-to-repo git@github.com:pH7Software/pH7Builder.git
 
     echo "Yaaay! Changes successfully saved into remote repos!"
 
