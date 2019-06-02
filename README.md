@@ -1,8 +1,6 @@
-# pH7 Social Dating CMS
+# pH7Builder
 
-## ⚡️The KILLER Dating WebApp Builder!
-
-### The 2019 Most Secure, Powerful & Professional "Social Dating Web App Builder" 🚀
+## ⚡️The 2019 KILLER Dating WebApp Builder!
 
 [![PayPal](https://img.shields.io/badge/Donate-PayPal-lightgrey.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X457W3L7DAPC6 "Help keep me off the streets! ;)") [![Build Status](https://scrutinizer-ci.com/g/pH7Software/pH7-Social-Dating-CMS/badges/build.png?b=master)](https://scrutinizer-ci.com/g/pH7Software/pH7-Social-Dating-CMS/build-status/master) [![GPL v3 Licence](https://img.shields.io/aur/license/yaourt.svg)](https://opensource.org/licenses/gpl-3.0.html) [![SourceForge](https://img.shields.io/badge/Download-SourceForge-orange.svg)](https://sourceforge.net/projects/ph7socialdating/files/latest/download) [![Patreon](https://img.shields.io/badge/Subscribe-Patreon-red.svg)](https://www.patreon.com/bePatron?u=3534366 "Become a Patron Today!")
 
@@ -10,16 +8,18 @@
 
 pH7Builder (now known as pH7Builder) offers 42 modules and based on its homemade framework (pH7Framework). It is also the first Professional, Free and Open Source Social Dating Site Builder Software and the first choice for creating enterprise level Dating Apps/Service or social networking sites.
 
+![Professional PHP Social Dating Builder Software](https://cloud.githubusercontent.com/assets/1325411/19419476/5475b32c-93d0-11e6-9756-8e7db8df129f.png)
 
 *Imagine in 3 months' time, you have a well-known successful online community with thousands of happy users and without spending a dime for it! Instead, you spent money on advertising, user acquisition and other marketing strategies... Imagine the time you have saved. The amazing business and freedom you have now created.*
 
 With **[pH7Builder](https://sourceforge.net/projects/ph7socialdating/files/latest/download)**, *THIS IS TOTALLY POSSIBLE!* (however, you have to be motivated! Nothing comes as magic).
 
 
-![Professional PHP Social Dating Builder Software](https://cloud.githubusercontent.com/assets/1325411/19419476/5475b32c-93d0-11e6-9756-8e7db8df129f.png)
+![pH7Builder allows anyone to start a web dating app like Tinder/Bumble or Badoo](https://cloud.githubusercontent.com/assets/1325411/19419477/5476b45c-93d0-11e6-823d-d293f186c0f7.png)
+![Admin Panel, Browse Users](https://cloud.githubusercontent.com/assets/1325411/14080251/b476e5c6-f4fb-11e5-825e-ddc992ba1055.png)
 
 
-## 👀 Software Overview
+## 👀 pH7Builder's Overview
 
 **pH7 Dating CMS** is a **Social/Dating CMS** written in **Object-Oriented** PHP (*OOP*), fully compatible and highly optimised for PHP 7+ and based on **MVC** architecture (Model-View-Controller).
 
@@ -28,102 +28,6 @@ It is designed with the **KISS** principle in mind, and the whole source code ca
 This Free and Open Source **Social Dating Site Builder** wants to be low resource-intensive, powerful, stable and secure. The software also comes with 42 system modules and is based on **pH7Framework** *(written specifically for this project)* that has over 52 packages.
 
 *To summarize, **pH7Builder** gives you **the perfect ingredients** to create the **best online dating service** or **social networking** website on the World Wide Web!*
-
-
-## 😻 How Powerful Your Social-Dating WebApp Will Be? 🚀
-
-* Boosted Social-Dating Streams™
-* Smart Intuitive Search Engine™ (SISE System)
-* Advanced Search
-* Friends/Mutual Friends, Visit, Messages, Instant messaging, Views, Like, Rating, Smileys, Geo Map, Avatar, Wallpaper, ...
-* Related Profiles (for better user experience and faster match)
-* Custom Profile (Background profile)
-* Comments
-* Outsmarted Moderation Tools™
-* Hot or Not
-* Love Calculator
-* Matchmaking System
-* Geo-Location System
-* People Nearby
-* The FASTEST Social Dating WebApp thanks to the Deep Memoization Tunnel™ 4.0
-* Photo Albums
-* Videos (with possibility to upload videos from v3 YouTube API, Vimeo, Metacafe and Dailymotion)
-* Forums
-* Nudity Filter Option for all images uploaded by users
-* Dating Scammer Detector (see if profile photos aren't used by scammers)
-* Full Moderation of all contents posted by your users
-* Watermark Branding
-* Chat Rooms
-* Chatroulette
-* Instant Messenger (IM module)
-* Games (with high quality and viral games installed)
-* Webcam Shot
-* Affiliate
-* Newsletter
-* Activity Streams
-* User Mentions (using the “@” symbol with the username such as [@pH-7](https://github.com/pH-7))
-* Member Approval System
-* Advanced Admin Panel
-* Complete Membership System
-* Payment Gateways Integration for PayPal, Stripe, Braintree, Bitcoin and 2CheckOut
-* Statistics & Analytics System
-* Live Notification System
-* Registration delay (to avoid spam)
-* File Management
-* Dynamic Field Forms Management
-* Profile Privacy Settings
-* Banner/Advertisement Management
-* Banner Ad Monetization
-* User Dashboard
-* Dating-Style Profile Page
-* Fake Profile Generator
-* CSV User Importer
-* Blog Posts
-* Notes
-* Pages Management
-* Support for Multiple Languages, Internationalization and Localization (I18N)
-* European and American Time/Date formats
-* Cache system for the database, pH7Tpl (our template engine), static files (HTML, CSS, JS), string content, ...
-* Maintenance Mode
-* Database Backup
-* Report Abuse
-* SEO-Friendly (Title, Content, Code, ...), Sitemap module, [hreflang](https://support.google.com/webmasters/answer/189077), possibility to translate each URL, ...
-* [Schema.org markup](https://moz.com/learn/seo/schema-structured-data) on your webapp considerably increases the ranking in search engines results and enable great features such as Google Rich Snippets
-* Multilingual URLs
-* Check that all UGC (User-Generated Content) are Unique (to avoid spam and malicious users)
-* RSS Feed
-* Block easily any IPs, emails, usernames, affiliated bank accounts, etc.
-* Country Blocker (block easily any countries where you don't want your website to be accessible)
-* Country Restrictions for Member and Affiliate registration forms
-* RESTful API for integration from an external app (iOS iPhone, Apple Watch, Android, ...), website, program, ...
-* Users' SMS Verification (supporting Clickatell and Twilio SMS gateways)
-* Feedback Module
-* Full Homepage Customization (profiles block, slogan, SEO text, headline)
-* Fully Responsive Templates
-* Memberships/Groups Manager
-* Publishable easily into Android/iPhone/iOS webview mobile app thanks its Mobile-Optimized Templates
-* Multiple-Themes and many customization possible
-* Message templates
-* Multi Themes and many personalizable
-* Includes top HTML5 features
-* Allow to sign in to your site with Facebook, Google and Twitter thanks pH7Builder's Connect module
-* Invite Friends
-* Social Bookmark (Social Media Sharing Buttons)
-* Anti-Scam and Anti-Fraud Tools
-* Login Attempt Protections
-* Powerful Anti-Spam System (and detects duplicate contents) powered by the Invisible Intelligent Spam Detection System™
-* pCO8 SECURITY pH7Framework™ (offers one of the highest protection for your webapp)
-* Full Security system against XSS, CSRF, SQL injection, authentication hacking, session fixation, brute-force, reverse tabnabbing phishing attacks, ... and can even prevent some DDoS attacks!
-* Two-Factor Authentication (2FA). With it, your website's admins, affiliates, users won't never be hacked again or got their accounts stolen thanks a mobile device token verification.
-* Progressive Web App (PWA) support (requires HTTPS)
-* Admin Panel - Block Access with IP Restriction
-* Beautiful Code: Very thoroughly commented about what's happening throughout the PHP code, beautiful indentation and very readable, even for non-programmers
-* Anyone can easily contribute to pH7Builder project thanks the [GitHub repository](https://github.com/pH7Software/pH7Builder)
-
-
-**It's not a hazard that pH7Builder is considered to be the first choice for creating an enterprise level dating web app or social networking website**
-
-*Great features [like here](https://ph7cms.com/social-dating-features/) and many other unique and exclusive features are waiting for YOU. Already released in pH7Builder!*
 
 ![Build a Social Dating Web App with pH7Builder](https://cloud.githubusercontent.com/assets/1325411/19419481/657386a4-93d0-11e6-8eee-95deba2d30a0.png)
 
@@ -271,25 +175,6 @@ Finally, **please consider using green Web hosting** (which use Green Power supp
 -> Other [10 Easy Ways to Green Your Social Community](https://mashable.com/2010/01/01/green-your-web-site/) 😉 <-
 
 
-## 🔨 Tools/Software Used to Develop pH7Builder
-
-* LAMP on **Fedora/Ubuntu** (and Mac/Windows with MAMP/WampServer/XAMPP for testing purpose)
-
-* **Geany &amp; Sublime Text** for coding the whole project. That's it! However, since pH7Builder 5.0, **PhpStorm** (and sometimes Atom) are used as well.
-
-* **GIMP** for editing the assets, etc.
-
-* **Trimage** (and **ImageOptim** when developing on Mac) for compressing &amp; optimizing the images
-
-* **Poedit** for translating the Gettext files
-
-* **FileZilla** for FTP client
-
-* **Git** for the version control system
-
-* Sometimes, when working on Mac, **Sequel Pro** is used to lookup easily at a database.
-
-
 ## 🖋 Contact
 
 You can reach me at *pierre {AT} soria {D0T} email*
@@ -300,7 +185,3 @@ You can reach me at *pierre {AT} soria {D0T} email*
 **pH7Builder** is generously distributed under **Open Source, Free** License.
 
 License: [General Public License 3](https://www.gnu.org/licenses/gpl.html) or later; See the *PH7.LICENSE.txt* and *PH7.COPYRIGHT.txt* files for more details.
-
-
-![pH7Builder allows anyone to start a web dating app like Tinder/Bumble or Badoo](https://cloud.githubusercontent.com/assets/1325411/19419477/5476b45c-93d0-11e6-823d-d293f186c0f7.png)
-![Admin Panel, Browse Users](https://cloud.githubusercontent.com/assets/1325411/14080251/b476e5c6-f4fb-11e5-825e-ddc992ba1055.png)
