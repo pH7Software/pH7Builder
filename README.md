@@ -150,13 +150,13 @@ This Free and Open Source **Social Dating Site Builder** wants to be low resourc
 ## 🛠 Installation
 
   * Github:
-    * Clone pH7Builder from Github `git clone git@github.com:pH7Software/pH7-Social-Dating-CMS.git`
+    * Clone pH7Builder from Github `git clone git@github.com:pH7Software/pH7Builder.git`
       (use `--depth=1` if you don't need the history)
     * [Install Composer](https://getcomposer.org/doc/00-intro.md)
     * From a command line opened in the folder, run `composer install` to install pH7Builder's dependencies.
   * Composer:
     * [Install Composer](https://getcomposer.org/doc/00-intro.md)
-    * `composer create-project ph7software/ph7cms --prefer-dist ph7cms`
+    * `composer create-project ph7software/ph7cms --prefer-dist ph7builder`
   * Sourceforge:
     * Directly download the latest stable version from [Sourceforge](https://sourceforge.net/projects/ph7socialdating/).
   * Softaculous:
@@ -167,7 +167,7 @@ This Free and Open Source **Social Dating Site Builder** wants to be low resourc
 
 In order to get pH7Builder working on nginx server, you need to add some custom nginx configuration.
 
-Create `/etc/nginx/ph7cms.conf` and add the following:
+Create `/etc/nginx/ph7builder.conf` and add the following:
 
 ```nginx
 location / {
@@ -178,7 +178,7 @@ location / {
 
 *Please note that the above code is the strict minimum and obviously you can add more rules by comparing with the [main Apache .htaccess file](https://github.com/pH7Software/pH7Builder/blob/master/.htaccess).*
 
-Finally, in your nginx server configuration, you will have to include `ph7cms.conf` file to complete the configuration like below:
+Finally, in your nginx server configuration, you will have to include `ph7builder.conf` file to complete the configuration like below:
 
 In file, e.g., *`/etc/nginx/sites-enabled/yoursite.conf`* for Ubuntu and other OS based on Debian or `/etc/nginx/conf.d/yoursite.conf` for CentOS and other OS based on Red Hat.
 
@@ -188,15 +188,15 @@ server {
     listen 80;
 
     server_name www.yoursite.com;
-    root /var/www/ph7cms_public_root;
+    root /var/www/ph7builder_public_root;
     index index.php; #you can use index.ph7; for hidding the *.php ...
     client_max_body_size 50M;
 
     error_log /var/log/nginx/yoursite.error.log;
     access_log /var/log/nginx/yoursite.access.log;
 
-    # Include ph7cms.conf. You can also directly add the "location" rule instead of including the conf file
-    include /etc/nginx/ph7cms.conf;
+    # Include ph7builder.conf. You can also directly add the "location" rule instead of including the conf file
+    include /etc/nginx/ph7builder.conf;
 }
 ```
 
