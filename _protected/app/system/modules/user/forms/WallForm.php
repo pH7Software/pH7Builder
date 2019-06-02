@@ -14,7 +14,7 @@ class WallForm
 {
     /*
      * This class is still under development, if you are a developer and you want to contribute,
-     * Feel free to fork pH7CMS repo https://github.com/pH7Software/pH7Builder and open a PR with your changes.
+     * Feel free to fork pH7Builder repo https://github.com/pH7Software/pH7Builder and open a PR with your changes.
      */
     public static function display()
     {

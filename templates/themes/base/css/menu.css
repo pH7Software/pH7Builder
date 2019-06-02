@@ -45,7 +45,7 @@
     }
 }
 
-/* Rewrite some CSS classes for Bootstrap fixed menu for better render in pH7CMS desin */
+/* Rewrite some CSS classes for Bootstrap fixed menu for better render in pH7Builder desin */
 .navbar-default {
     border-color: #ccc !important;
 }

@@ -1,7 +1,7 @@
 <div class="center">
     <div class="col-md-8 col-md-offset-2">
         <div class="panel panel-default">
-            <h2 class="panel-heading underline">{lang 'Let others know about pH7CMS'}</h2>
+            <h2 class="panel-heading underline">{lang 'Let others know about pH7Builder'}</h2>
             <div class="panel-body">
                 <ul class="list-group">
                     <li class="list-group-item">

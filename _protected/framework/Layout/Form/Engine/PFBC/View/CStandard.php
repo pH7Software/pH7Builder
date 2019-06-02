@@ -4,7 +4,7 @@
  */
 
 namespace PFBC\View;
-// Class for pH7CMS
+// Class for pH7Builder
 
 class CStandard extends \PFBC\View
 {

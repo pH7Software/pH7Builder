@@ -33,7 +33,7 @@ COMMENT;
 
     const COMMENT_BUILT_WITH_PH7CMS = <<<COMMENT
         \n<!--
-     BUILT WITH pH7CMS – https://ph7cms.com
+     BUILT WITH pH7Builder – https://ph7cms.com
      https://github.com/pH7Software/pH7Builder
 
 
@@ -78,7 +78,7 @@ COMMENT;
 
     const COMMENT_SOCIAL_DATING_SOFTWARE = <<<COMMENT
         \n<!--
-     💪 BUILT WITH pH7CMS ❤️ – https://ph7cms.com
+     💪 BUILT WITH pH7Builder ❤️ – https://ph7cms.com
 
       mmmm                  "           ""#
      #"   "  mmm    mmm   mmm     mmm     #

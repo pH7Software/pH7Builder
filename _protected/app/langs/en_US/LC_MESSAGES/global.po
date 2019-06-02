@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: pH7CMS\n"
+"Project-Id-Version: pH7Builder\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-12 23:42+1300\n"
 "PO-Revision-Date: 2019-02-12 23:42+1300\n"
@@ -54,7 +54,7 @@ msgstr ""
 #: _protected/app/modules/helloworld/controllers/HomeController.php:30
 msgid ""
 "This module is just an example to show how easy you can create modules with "
-"pH7CMS"
+"pH7Builder"
 msgstr ""
 
 #: _protected/app/modules/helloworld/controllers/HomeController.php:31
@@ -827,7 +827,7 @@ msgstr ""
 
 #: _protected/app/system/core/classes/design/XmlDesignCore.php:94
 msgid ""
-"It seems you don't have Internet (or pH7CMS feed news is temporarily "
+"It seems you don't have Internet (or pH7Builder feed news is temporarily "
 "unavailable). Some features on the dashboard won't be available."
 msgstr ""
 
@@ -3355,7 +3355,7 @@ msgstr ""
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:80
 msgid ""
-"Are you proud of using <a href=\"%software_website%\">pH7CMS</a> brand? Are "
+"Are you proud of using <a href=\"%software_website%\">pH7Builder</a> brand? Are "
 "you proud to say your dating app has been made by the Leading Dating "
 "Software provider?"
 msgstr ""
@@ -4644,7 +4644,7 @@ msgstr ""
 #: _protected/app/system/modules/api/config/Permission.php:27
 msgid ""
 "Your API key and/or the URL of your external application don't match with "
-"the one in your pH7CMS's configuration system!"
+"the one in your pH7Builder's configuration system!"
 msgstr ""
 
 #: _protected/app/system/modules/api/controllers/UserController.php:73
@@ -6574,7 +6574,7 @@ msgid ""
 msgstr ""
 
 #: _protected/app/system/modules/milestone-celebration/inc/class/MessageGenerator.php:33
-msgid "Subscribe to <a href=\"%0%\">pH7CMS Patreon</a>."
+msgid "Subscribe to <a href=\"%0%\">pH7Builder Patreon</a>."
 msgstr ""
 
 #: _protected/app/system/modules/milestone-celebration/inc/class/MessageGenerator.php:34
@@ -7378,7 +7378,7 @@ msgstr ""
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/profiletop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/signuptop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/visitortop_menu.inc.cpl.php:19
-msgid "Will You Help pH7CMS?"
+msgid "Will You Help pH7Builder?"
 msgstr ""
 
 #: _protected/app/system/modules/ph7cms-helper/controllers/MainController.php:94
@@ -13617,7 +13617,7 @@ msgstr ""
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/signuptop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/visitortop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
-msgid "Help pH7CMS by giving a nice review! Highly appreciated :)"
+msgid "Help pH7Builder by giving a nice review! Highly appreciated :)"
 msgstr ""
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/accounttop_menu.inc.cpl.php:19
@@ -13736,7 +13736,7 @@ msgid "Switch back to the Admin Panel"
 msgstr ""
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/info/software.cpl.php:19
-msgid "Let others know about pH7CMS"
+msgid "Let others know about pH7Builder"
 msgstr ""
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/info/software.cpl.php:19
@@ -13807,7 +13807,7 @@ msgstr ""
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/main/news.inc.cpl.php:19
 msgid ""
-"Latest <a href=\"%software_website%\" title=\"%software_name%\">pH7CMS "
+"Latest <a href=\"%software_website%\" title=\"%software_name%\">pH7Builder "
 "Software</a>'s News"
 msgstr ""
 
@@ -14516,7 +14516,7 @@ msgstr ""
 #: _protected/framework/Geo/Map/Api.class.php:626
 msgid ""
 "You need to get a Google Maps API key to get it working. Please go to your "
-"pH7CMS Admin Panel -> Settings -> General -> API -> Google Maps API Key"
+"pH7Builder Admin Panel -> Settings -> General -> API -> Google Maps API Key"
 msgstr ""
 
 #: _protected/framework/Geo/Map/Api.class.php:725

@@ -133,7 +133,7 @@ class ImportUser extends Core
 
         $this->aTmpData = [
             'email' => 'pierrehenrysoriasanz' . $sFiveChars . '@ph7cms' . $sFiveChars . '.com',
-            'username' => 'pH7CMS' . $sFiveChars,
+            'username' => 'pH7Builder' . $sFiveChars,
             'password' => Various::genRnd(),
             'first_name' => 'Alex' . $sFiveChars,
             'last_name' => 'Rolli' . $sFiveChars,

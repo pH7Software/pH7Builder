@@ -20,7 +20,7 @@ $LANG = array(
     'CMS_desc' => '<p>Bienvenue à l\'installation de ' . Controller::SOFTWARE_NAME . '.<br />
         Nous vous remercions d\'avoir choisis notre CMS et nous espérons qu\'il va vous plaire.</p>',
     'choose_install_lang' => 'Veuillez choisir votre langue pour commencer l\'installation',
-    'requirements_desc' => 'ATTENTION ! Veuillez être sûr que <abbr title="Votre serveur distant ou votre machine/PC si vous êtes en localhost">vous êtes</abbr> connecté à Internet et que votre serveur a les <a href="' . Controller::SOFTWARE_REQUIREMENTS_URL . '" target="_blank" rel="noopener">exigences nécessaires</a> pour faire fonctionner pH7CMS.',
+    'requirements_desc' => 'ATTENTION ! Veuillez être sûr que <abbr title="Votre serveur distant ou votre machine/PC si vous êtes en localhost">vous êtes</abbr> connecté à Internet et que votre serveur a les <a href="' . Controller::SOFTWARE_REQUIREMENTS_URL . '" target="_blank" rel="noopener">exigences nécessaires</a> pour faire fonctionner pH7Builder.',
     'requirements2_desc' => 'Avant toute chose, veuillez créer une base de données MySQL et affecter un utilisateur à elle avec tous les privilèges. Une fois que vous avez créé la base de données MySQL et son utilisateur, assurez-vous d\'écrire le nom de la base de données, le nom d\'utilisateur et le mot de passe, car vous en aurez besoin pour l\'installation.',
     'config_path' => 'Chemin du répertoire &laquo; protected &raquo;',
     'desc_config_path' => 'Veuillez indiquer le chemin complet de votre répertoire &laquo; protected &raquo;<br />
@@ -62,7 +62,7 @@ $LANG = array(
     'db_username' => 'Nom d\'utilisateur de la base de données',
     'db_password' => 'Mot de passe de la base de données',
     'db_prefix' => 'Le préfixe des tables de la base de données',
-    'desc_db_prefix' => 'Cette option est utile quand vous avez plusieurs installations de pH7CMS sur la même base de données. Nous vous recommandons quand même de modifier la valeur par défaut afin d\'augmenter la sécurité de votre site Web.',
+    'desc_db_prefix' => 'Cette option est utile quand vous avez plusieurs installations de pH7Builder sur la même base de données. Nous vous recommandons quand même de modifier la valeur par défaut afin d\'augmenter la sécurité de votre site Web.',
     'db_encoding' => 'Encodage',
     'desc_db_encoding' => 'Encodage de la base de données. utf8mb4 pour un encodage international (supportant les emojis).',
     'db_port' => 'Numéro de port de votre base de données',
@@ -104,7 +104,7 @@ $LANG = array(
             Votre mot de passe est : <em>****** (caché pour des raisons de sécurité. C\'est celui choisi durant l\'installation).</em>
         </p>
         <p>N\'oubliez pas de vous la péter en montrant votre nouveau service de rencontre à tous vos amis, vos collègues et vos potes de Facebook (et même à vos ennemis... ou pas).</p>
-        <p><strong>Voici un <a href="' . get_tweet_post("Viens de créer mon #AppDeRencontre avec #pH7CMS 😍 %s \n%s #ScriptRencontre 💪", Controller::SOFTWARE_TWITTER, Controller::SOFTWARE_GIT_REPO_URL) . '">un Tweet pré-écrit</a> (que vous pouvez éditer, bien sûr)</strong>.</p>
+        <p><strong>Voici un <a href="' . get_tweet_post("Viens de créer mon #AppDeRencontre avec #pH7Builder 😍 %s \n%s #ScriptRencontre 💪", Controller::SOFTWARE_TWITTER, Controller::SOFTWARE_GIT_REPO_URL) . '">un Tweet pré-écrit</a> (que vous pouvez éditer, bien sûr)</strong>.</p>
         <p>&nbsp;</p>
         <p><strong>Allez-vous m\'aider à améliorer le logiciel ? <a href="' . Controller::PATREON_URL . '">Faire une donation ici</a></strong></p>
         <p>&nbsp;</p>

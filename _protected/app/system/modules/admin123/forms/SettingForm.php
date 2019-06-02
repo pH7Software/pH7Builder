@@ -86,7 +86,7 @@ class SettingForm
 
         $oForm->addElement(new \PFBC\Element\Select(t('Site Status:'), 'site_status', [DbConfig::ENABLED_SITE => t('Online'), DbConfig::MAINTENANCE_SITE => t('Maintenance (offline)')], ['description' => t("Maintenance mode is useful if you are working on your website or update it. Logged admins and admin panel won't be affected by the maintenance page."), 'value' => DbConfig::getSetting('siteStatus'), 'required' => 1]));
 
-        $oForm->addElement(new \PFBC\Element\Select(t('Show "Powered By" link in footer:'), 'display_powered_by_link', [1 => t('Enable'), 0 => t('Disable (NOT recommended)')], ['description' => t('Are you proud of using <a href="%software_website%">pH7CMS</a> brand? Are you proud to say your dating app has been made by the Leading Dating Software provider?'), 'value' => DbConfig::getSetting('displayPoweredByLink'), 'required' => 1]));
+        $oForm->addElement(new \PFBC\Element\Select(t('Show "Powered By" link in footer:'), 'display_powered_by_link', [1 => t('Enable'), 0 => t('Disable (NOT recommended)')], ['description' => t('Are you proud of using <a href="%software_website%">pH7Builder</a> brand? Are you proud to say your dating app has been made by the Leading Dating Software provider?'), 'value' => DbConfig::getSetting('displayPoweredByLink'), 'required' => 1]));
 
         $oForm->addElement(new \PFBC\Element\Select(t('Show the News Feed:'), 'is_software_news_feed', [1 => t('Enable'), 0 => t('Disable')], ['description' => t('Show the latest news about the software in the admin dashboard (recommend).'), 'value' => DbConfig::getSetting('isSoftwareNewsFeed'), 'required' => 1]));
 
