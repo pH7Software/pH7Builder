@@ -17,12 +17,14 @@ namespace PH7;
 defined('PH7') or exit('Restricted access');
 
 use PH7\Framework\File as F;
+use PH7\Framework\File\MissingProgramException;
 use PH7\Framework\Mvc\Model\DbConfig;
 use PH7\Framework\Mvc\Router\Uri;
 use PH7\Framework\Url\Header;
 use PH7\Framework\Util\Various;
 use PH7\Framework\Video as V;
 use PH7\Framework\Video\Api\IApi;
+use PH7\Framework\Video\Api\InvalidApiKeyException;
 
 class VideoFormProcess extends Form
 {
@@ -76,7 +78,7 @@ class VideoFormProcess extends Form
                         );
                         return;
                     }
-                } catch (Framework\Video\Api\InvalidApiKeyException $oE) {
+                } catch (InvalidApiKeyException $oE) {
                     // Problem with the API service from the video platform...? Display the error message.
                     \PFBC\Form::setError('form_video', $oE->getMessage());
                     return;
@@ -95,7 +97,7 @@ class VideoFormProcess extends Form
         } elseif (!empty($_FILES['video']['tmp_name'])) {
             try {
                 $oVideo = new V\Video($_FILES['video']);
-            } catch (Framework\File\MissingProgramException $oE) {
+            } catch (MissingProgramException $oE) {
                 \PFBC\Form::setError('form_video', $oE->getMessage());
                 return;
             }
