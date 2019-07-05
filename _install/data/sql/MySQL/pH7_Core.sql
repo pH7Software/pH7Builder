@@ -1006,7 +1006,7 @@ INSERT INTO ph7_settings (settingName, settingValue, description, settingGroup) 
 ('returnEmail', @sNoReplyEmail, 'Generally noreply@yoursite.com', 'email'),
 ('adminEmail', @sAdminEmail, '', 'email'),
 ('feedbackEmail', @sFeedbackEmail, '', 'email'),
-('emailName', 'pH7CMS.com', '', 'email'),
+('emailName', 'pH7Builder (ph7cms.com)', '', 'email'),
 ('splashPage', 1, 'Use Splash Page | enable = 1 or disable = 0', 'homepage'),
 ('usersBlock', 1, '0 to disable | 1 to enable the profile photos on the homepage', 'homepage'),
 ('profileWithAvatarSet', 0, '1 to display only the profiles with a profile photo.', 'homepage'),
