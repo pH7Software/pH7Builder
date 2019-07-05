@@ -35,7 +35,6 @@ class UserModel extends UserCoreModel
     {
         $rStmt = Db::getInstance()->prepare($this->getQuery('join', $this->sQueryPath));
         $rStmt->bindValue(':email', $aData['email'], \PDO::PARAM_STR);
-        $rStmt->bindValue(':username', $aData['username'], \PDO::PARAM_STR);
         $rStmt->bindValue(':password', $aData['password'], \PDO::PARAM_STR);
         $rStmt->bindValue(':first_name', $aData['first_name'], \PDO::PARAM_STR);
         $rStmt->bindValue(':reference', $aData['reference'], \PDO::PARAM_STR);

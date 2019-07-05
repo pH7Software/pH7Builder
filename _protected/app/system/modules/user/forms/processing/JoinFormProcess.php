@@ -44,7 +44,6 @@ class JoinFormProcess extends Form
 
         $aData = [
             'email' => $this->httpRequest->post('mail'),
-            'username' => $this->httpRequest->post('username'),
             'first_name' => $this->httpRequest->post('first_name'),
             'reference' => $this->getAffiliateReference(),
             'ip' => Ip::get(),

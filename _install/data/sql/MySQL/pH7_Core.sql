@@ -78,7 +78,6 @@ INSERT INTO ph7_memberships (groupId, name, description, permissions, price, exp
 CREATE TABLE IF NOT EXISTS ph7_members (
   profileId int(10) unsigned NOT NULL AUTO_INCREMENT,
   email varchar(120) NOT NULL,
-  username varchar(40) NOT NULL,
   password varchar(120) NOT NULL,
   firstName varchar(50) DEFAULT NULL,
   lastName varchar(50) DEFAULT NULL,
@@ -110,7 +109,6 @@ CREATE TABLE IF NOT EXISTS ph7_members (
   ban tinyint(1) unsigned NOT NULL DEFAULT 0,
   PRIMARY KEY (profileId),
   FOREIGN KEY (groupId) REFERENCES ph7_memberships(groupId),
-  UNIQUE KEY (username),
   UNIQUE KEY (email),
   KEY birthDate (birthDate)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 AUTO_INCREMENT=1;
@@ -157,8 +155,8 @@ CREATE TABLE IF NOT EXISTS ph7_members_notifications (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- GHOST User. Do not remove ghost default member!
-INSERT INTO ph7_members (profileId, email, username, password, firstName, lastName, birthDate, ip, lastActivity, joinDate) VALUES
-(1, 'ghost@ghost', 'ghost', @sPassword, 'Ghost', 'The Ghost', '1001-01-01', '00.000.00.00', @sCurrentDate, @sCurrentDate);
+INSERT INTO ph7_members (profileId, email, password, firstName, lastName, birthDate, ip, lastActivity, joinDate) VALUES
+(1, 'ghost@ghost', @sPassword, 'Ghost', 'The Ghost', '1001-01-01', '00.000.00.00', @sCurrentDate, @sCurrentDate);
 INSERT INTO ph7_members_info (profileId, description, address, city, state, zipCode, country) VALUES
 (1, 'This profile doesn''t exist anymore. So I''m the ghost who replaces him/her during this time', 'The Ghost City', 'Ghost Town', 'Ghost State', '000000', 'US');
 -- Privacy settings
