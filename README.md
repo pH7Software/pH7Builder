@@ -57,7 +57,7 @@ You appreciate the project, the several years I spent on it, and don't want to l
 
 * **Server** Apache with mod_php or with PHP in CGI, FastCGI mode (nginx, LiteSpeed and IIS should also work. You might have to change some pieces of code and change the URL rewriting to make it work).
 
-* **Application Server** PHP 5.6 or higher (Recommended Version: **PHP 7.0.4** or higher).
+* **Application Server** PHP 5.6 or higher (recommended version: **PHP 7.0.4** or higher).
 
 * **Database** MySQL/MariaDB 5.5.3 or higher.
 
