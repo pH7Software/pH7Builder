@@ -1,6 +1,6 @@
 # 🚀 pH7Builder 😍
 
-⚠️ This project is not maintained anymore. The main and most relevant changes made in this project have been moved to **[pH7SocialDating CMS repository](https://github.com/pH7Software/pH7-Social-Dating-CMS)**. Please use this software instead.
+⚠️ This project is not maintained anymore. The main and most relevant changes made in this project have been moved to **[pH7SocialDating CMS repository](https://github.com/pH7Software/pH7-Social-Dating-CMS)**. Please use [this software](https://github.com/pH7Software/pH7-Social-Dating-CMS) instead.
 
 ## ⚡ 2019 KILLER Dating WebApp Builder Software!
 
